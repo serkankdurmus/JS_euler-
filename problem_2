@@ -1,0 +1,16 @@
+var num=4000000;
+var sum=0;
+var i=0;
+var j=1; k=0;
+
+while(i<num){
+    if((k%2) === 0){
+        sum += k;
+        }
+    k = i + j;
+    i = j;
+    j = k;
+}
+console.log(sum);
+
+//4613732
